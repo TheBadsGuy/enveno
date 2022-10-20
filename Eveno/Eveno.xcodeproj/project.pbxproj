@@ -34,6 +34,7 @@
 		9ED4FCFC28EDA0DB006E5F3F /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCE628EDA0DB006E5F3F /* OFL.txt */; };
 		9ED4FCFD28EDA0DB006E5F3F /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCE728EDA0DB006E5F3F /* README.txt */; };
 		9ED4FCFE28EDA0DB006E5F3F /* Urbanist-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCE828EDA0DB006E5F3F /* Urbanist-Italic-VariableFont_wght.ttf */; };
+		9FBF229D2901170000F9E8C3 /* Light_event_details_full_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBF229C2901170000F9E8C3 /* Light_event_details_full_page.swift */; };
 		AC63508228F08FAC00664BC3 /* Signin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63508128F08FAC00664BC3 /* Signin.swift */; };
 		AC63508428F0900700664BC3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63508328F0900700664BC3 /* CustomTextField.swift */; };
 		AC75FD1228EE1DA50082A575 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75FD1128EE1DA50082A575 /* Signup.swift */; };
@@ -69,6 +70,7 @@
 		9ED4FCE728EDA0DB006E5F3F /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		9ED4FCE828EDA0DB006E5F3F /* Urbanist-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		9ED4FCFF28EDA3C2006E5F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9FBF229C2901170000F9E8C3 /* Light_event_details_full_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light_event_details_full_page.swift; sourceTree = "<group>"; };
 		AC63508128F08FAC00664BC3 /* Signin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signin.swift; sourceTree = "<group>"; };
 		AC63508328F0900700664BC3 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomTextField.swift; path = Eveno/View/CustomTextField.swift; sourceTree = SOURCE_ROOT; };
 		AC75FD1128EE1DA50082A575 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 		9ED4FCCC28ECC863006E5F3F /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				9FBF229B290116B100F9E8C3 /* Light_event_details */,
 				9ED4FCCE28ECC872006E5F3F /* Search+Filter */,
 				9ED4FCCD28ECC86A006E5F3F /* Notification */,
 			);
@@ -249,6 +252,14 @@
 				9ED4FCE528EDA0DB006E5F3F /* Urbanist-ThinItalic.ttf */,
 			);
 			path = static;
+			sourceTree = "<group>";
+		};
+		9FBF229B290116B100F9E8C3 /* Light_event_details */ = {
+			isa = PBXGroup;
+			children = (
+				9FBF229C2901170000F9E8C3 /* Light_event_details_full_page.swift */,
+			);
+			path = Light_event_details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,6 +356,7 @@
 			files = (
 				9ED4FCC728EC9C0C006E5F3F /* begin.swift in Sources */,
 				AC75FD1228EE1DA50082A575 /* Signup.swift in Sources */,
+				9FBF229D2901170000F9E8C3 /* Light_event_details_full_page.swift in Sources */,
 				AC63508428F0900700664BC3 /* CustomTextField.swift in Sources */,
 				9ED4FCB828EC997E006E5F3F /* ContentView.swift in Sources */,
 				9ED4FCB628EC997E006E5F3F /* EvenoApp.swift in Sources */,
